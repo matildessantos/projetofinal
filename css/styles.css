@@ -1,0 +1,214 @@
+@font-face {
+    font-family: "Montserrat-ThinItalic";
+    src: url(../fonts/Montserrat-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-SemiBoldItalic";
+    src: url(../fonts/Montserrat-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-MediumItalic";
+    src: url(../fonts/Montserrat-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-LightItalic";
+    src: url(../fonts/Montserrat-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Italic";
+    src: url(../fonts/Montserrat-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-ExtraLightItalic";
+    src: url(../fonts/Montserrat-ExtraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-ExtraLight";
+    src: url(../fonts/Montserrat-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-ExtraBoldItalic";
+    src: url(../fonts/Montserrat-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-ExtraBold";
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-BoldItalic";
+    src: url(../fonts/Montserrat-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Thin";
+    src: url(../fonts/Montserrat-Thin.ttf);
+}
+
+
+
+body{
+    font-family: "Montserrat-Regular";
+}
+
+.header{
+    height: 137px;
+    background: yellow;
+    padding: 20px;
+}
+
+.slider{
+    height: calc(100vh - 137px);
+    background:orange;
+}
+
+.news{
+    height: 580px;
+    background: orchid;
+    
+}
+
+.sugestions{
+    height: 400px;
+    background:red;
+}
+
+.pre-footer{
+    height: 222px;
+    background: royalblue;
+}
+
+.footer{
+    height: 175px;
+    background: sandybrown;
+}
+
+/* nova fase */
+
+.languages{
+
+    width: 20%;
+    height: calc(100% - 10px);
+    float:left;
+    background: seagreen; 
+    padding: 10px;
+    font-size: 16pt;
+}
+
+.header-menu{
+    width: 60%;
+    height: calc(100% - 10px);
+    float: left;
+    background: lightsteelblue;
+    padding: 10px;
+}
+
+.items{
+    width: 20%;
+    height: calc(100% - 10px);
+    float: right;
+    background:maroon;
+}
+
+/* nova fase */
+
+.logo{
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    background: chocolate;
+}
+
+menu{
+    height: 50%;
+}
+
+.menu ul{
+    background: red;
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li{
+    float: left;
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat-Bold';
+    font-size: 16pt;
+    display: inline;
+}
+
+.novo, .roupa{
+    padding:5px;
+}
+
+.acessorios, .sapatos, .sugestoes{
+    padding: 25px;
+}
+
+@media screen and (max-width:500px) {
+    .header{
+        height: 90px;
+        padding: 10px;
+    }
+
+    .slider{
+        height: 450px;
+    }
+
+    .news{
+        height: 365px;
+    }
+
+    .sugestions{
+        height: 415px;
+    }
+
+    .pre-footer{
+        height: 222px;
+    }
+
+    .footer{
+        height: 235px;;
+    }
+    
+    
+
+}

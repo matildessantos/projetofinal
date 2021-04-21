@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 70%;
+            margin: 0 15%;
+    display: flex;
+    }
+.box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.box:first-child > span { margin-right: auto; }
+
+.box > span {margin:0  auto; }
+
+.box:last-child  > span { margin-left: auto;  }
+
+
+
+/* non-essential */
+.box {
+  align-items: center;
+
+  height: 40px;
+}
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="box"><span>NOVO</span></div>
+        <div class="box"><span>roupa</span></div>
+        <div class="box"><span>acessorios</span></div>
+        <div class="box"><span>sapatos</span></div>
+        <div class="box"><span>sugestoes</span></div>
+    </div>
+
+    <ul>
+        <li class="novo">Novo</li>
+        <li class="roupa">Roupa</li> 
+        <li class="acessorios">Acessórios</li>
+        <li class="sapatos">Sapatos</li>
+        <li class="sugestoes">Sugestões</li>
+    </ul>
+
+     
+</body>
+</html>
