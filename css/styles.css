@@ -116,7 +116,9 @@ body{
     background: sandybrown;
 }
 
-/* nova fase */
+/*---------------menu-----------*/
+
+/* lado esquerdo - linguas */
 
 .languages{
 
@@ -143,7 +145,7 @@ body{
     background:maroon;
 }
 
-/* nova fase */
+/* -------------logotipo + menu---------------*/
 
 .logo{
     text-align: center;
@@ -156,32 +158,35 @@ menu{
     height: 50%;
 }
 
-.menu ul{
-    background: red;
+.container {
     width: 100%;
-    float: left;
-    padding: 0;
     margin: 0;
-}
-
-.menu ul li{
-    float: left;
-    width: 20%;
     padding: 0;
-    margin: 0;
-    text-align: center;
-    font-family: 'Montserrat-Bold';
+    display: flex;
+    float: left;
+    font-family: 'Montserrat-SemiBold';
     font-size: 16pt;
-    display: inline;
+    text-align: center;
 }
 
-.novo, .roupa{
-    padding:5px;
+
+
+.box {
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 40px;
 }
 
-.acessorios, .sapatos, .sugestoes{
-    padding: 25px;
-}
+.box:first-child > span { margin-right: auto; }
+
+.box > span {margin:0  auto; }
+
+.box:last-child  > span { margin-left: auto;  }
+
+
+/*------------------------------*/
 
 @media screen and (max-width:500px) {
     .header{
