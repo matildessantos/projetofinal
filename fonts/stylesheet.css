@@ -1,0 +1,92 @@
+/* HEEBO */
+
+@font-face {
+    font-family: 'heeboregular';
+    src: url(heebo/heebo-variablefont_wght-webfont.woff2) format('woff2'),
+         url(heebo/heebo-variablefont_wght-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* MONTSERRAT */
+
+@font-face {
+    font-family: "Montserrat-ThinItalic";
+    src: url(montserrat/Montserrat-ThinItalic.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-SemiBoldItalic";
+    src: url(montserrat/Montserrat-SemiBoldItalic.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url(montserrat/Montserrat-SemiBold.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(montserrat/Montserrat-Regular.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-MediumItalic";
+    src: url(montserrat/Montserrat-MediumItalic.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(montserrat/Montserrat-Medium.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-LightItalic";
+    src: url(montserrat/Montserrat-LightItalic.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url(montserrat/Montserrat-Light.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-Italic";
+    src: url(montserrat/Montserrat-Italic.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-ExtraLightItalic";
+    src: url(montserrat/Montserrat-ExtraLightItalic.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-ExtraLight";
+    src: url(montserrat/Montserrat-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-ExtraBoldItalic";
+    src: url(montserrat/Montserrat-ExtraBoldItalic.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-ExtraBold";
+    src: url(montserrat/Montserrat-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-BoldItalic";
+    src: url(montserrat/Montserrat-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(montserrat/Montserrat-Bold.otf);
+}
+
+@font-face {
+    font-family: "Montserrat-Thin";
+    src: url(montserrat/Montserrat-Thin.otf);
+}
