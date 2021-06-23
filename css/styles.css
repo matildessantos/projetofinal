@@ -55,23 +55,26 @@ body{
 }
 
 
-.header-menu{
-    width: 80%;
-    height: 100%;
-    float: left;
-    background: lightsteelblue;
-}
-
 
 /* ------------- menu---------------*/
 
+.header-menu{
+    width: 70%;
+    height: 100%;
+    float: right;
+    background: lightsteelblue;
+    margin: 0px;
+    padding-top: 20px;
+}
 
 .container {
     /*width: 100%;*/
+    width: calc(70% - 60px);
     margin: 0;
     padding: 0;
     display: flex;
     text-align: center;
+    float: right;
 }
 
 
@@ -83,6 +86,27 @@ justify-content: center;
 align-items: center;
 height: 40px;
 float: left;
+font-size: 16px;
+}
+
+.item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    float: left;
+    font-size: 20px;
+    }
+
+.linguas{
+    width: calc(15% - 60px);
+    float: right;
+}
+
+.itens{
+    width: 15%;
+    float: right;
 }
 
 
