@@ -9,136 +9,59 @@ body{
     padding: 20px 40px;
 }
 
-.wrapper-menu{
-    height: 80px;
-    background: red;
-}
-
-.slider{
-    height: calc(100vh - 137px);
-    background:orange;
-}
-
-.news{
-    height: 580px;
-    background: orchid;
-    
-}
-
-.sugestions{
-    height: 400px;
-    background:red;
-}
-
-.pre-footer{
-    height: 222px;
-    background: royalblue;
-}
-
-.footer{
-    height: 175px;
-    background: sandybrown;
-}
 
 /*---------------menu-----------*/
 
-/* lado esquerdo - logo */
+/*---------------logo-----------*/
 
 .logo{
-
-    width: 20%;
-    height: 100%;
-    float: left;
-    background: seagreen;
-    /* padding: 10px; */
-    font-size: 16pt;
+    background: purple !important;
 }
 
+/*---------------menu-principal-----------*/
 
-
-/* ------------- menu---------------*/
-
-.header-menu{
-    width: 70%;
-    height: 100%;
+.menu-mega-principal{
     float: right;
-    background: lightsteelblue;
-    margin: 0px;
-    padding-top: 20px;
-}
-
-.container {
-    /*width: 100%;*/
-    width: calc(70% - 60px);
-    margin: 0;
-    padding: 0;
-    display: flex;
     text-align: center;
-    float: right;
 }
 
+.menu-mega-principal nav div ul>li{
+    margin: 0 15px;
+    width: calc(15.2% - 30px);
+    background: red;
+} 
 
+.menu-extra{
+    width:20% !important;
+}
+.menu-extra .idioma{
+    width:50% !important;
+}
 
-.box {
-flex: 1;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 40px;
+.menu-extra li{
+    padding: 0;
+margin: 0 !important;
+width: 25% !important;
 float: left;
-font-size: 16px;
+background: green !important;
 }
 
-.item {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    float: left;
-    font-size: 20px;
-    }
-
-.linguas{
-    width: calc(15% - 60px);
-    float: right;
+.menu-mega-principal .navbar{
+   padding: 20px 0 0 0;
+   display: unset;
+   
 }
 
-.itens{
-    width: 15%;
-    float: right;
+.menu-mega-principal .navbar .navbar-nav{
+   width: 100%;
+   background: yellow;
+
 }
 
 
+/* fixar tamanho de letra para ecras maiores e mais pequenos 
+fixar tamanho a partir de 1200*/
 
-/*------------------------------*/
 
-@media screen and (max-width:500px) {
-    .header{
-        height: 90px;
-        padding: 10px;
-    }
+/*-----------Media Queries--------------*/
 
-    .slider{
-        height: 450px;
-    }
-
-    .news{
-        height: 365px;
-    }
-
-    .sugestions{
-        height: 415px;
-    }
-
-    .pre-footer{
-        height: 222px;
-    }
-
-    .footer{
-        height: 235px;;
-    }
-    
-    
-
-}
